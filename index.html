@@ -59,12 +59,14 @@
     <div class="page-content">
       <div id="main"></div>
     </div>
-    <div class="floating-button">
 
-      <button id="btn-upload-post" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+    <div class="floating-button">
+      <!-- <button id="btn-upload-post" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"> -->
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
         <i class="material-icons">add</i>
       </button>
     </div>
+    </main>
 
     <!-- Sección para agregar un post -->
     <div class="card-wide mdl-card" id="modal-post-section">
@@ -79,24 +81,22 @@
               <textarea class="mdl-textfield__input" type="text" rows="3" id="description" placeholder="Descripción"></textarea>
               <label class="mdl-textfield__label" for="description"></label>
           </div>
-          <div class="mdl-cell--12-col">
+          <div class="mdl-cell mdl-cell--12-col">
             <div class="mdl-grid">
-              <div class="mdl-cell mdl-cell-6-col">
-                <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent mdl-color-text--white mdl-color-text--dark" id="btn-post-submit">
-                  Enviar Post
+              <div class="mdl-cell mdl-cell--6-col">
+                <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent mdl-color-text--white mdl-color--primary-dark" id="btn-post-submit">
+                  Enviar post
                 </button>
               </div>
-              <div class="mdl-cell mdl-cell-6-col">
-                <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent mdl-color-text--white mdl-color-text--dark" id="btn-post-cancel">
+              <div class="mdl-cell mdl-cell--6-col">
+                <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect " id="btn-post-cancel">
                   Cancelar
                 </button>
+              </div>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
-
-  </main>
-</div>
-</body>
+  </body>
 </html>
